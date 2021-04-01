@@ -1,0 +1,19 @@
+[core]
+	editor = vim
+
+[alias]
+	st = status
+	com = commit
+	co = checkout
+	br = branch
+	graph = log --graph --oneline
+	gr = log --graph --oneline
+
+[merge]
+    ff = false
+
+[pull]
+    ff = only
+
+[push]
+	default = simple
