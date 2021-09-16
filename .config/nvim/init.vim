@@ -13,6 +13,11 @@ nnoremap tt :tabnext<CR>
 nnoremap rr :tabprevious<CR>
 nnoremap ;; :s/$/;/ \| noh<CR>
 
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
 tnoremap <Esc> <C-\><C-n>
 autocmd TermOpen * set nonumber | startinsert
 autocmd WinEnter * if &buftype ==# 'terminal' | startinsert | endif
